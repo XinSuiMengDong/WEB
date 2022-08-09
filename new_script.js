@@ -13,5 +13,5 @@
 (function() {
     'use strict';
 
-    console.log('Just a test.')
+    console.log('Another test.')
 })();
