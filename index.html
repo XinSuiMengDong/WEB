@@ -3,31 +3,40 @@
     <head>
         <meta charset="utf-8">
         <title>XSMD's first HTML</title>
-        <link rel="icon" type="image/x-icon" href="logo/favicon.ico">
+        <style>
+            body {
+                background: url("image/background.jpg") no-repeat;
+                background-size: 100% auto;
+            }
+            #header-main {
+                text-align: center;
+                padding: 20px;
+            }
+            #content {
+                max-width: 700px;
+                margin: 30px auto;
+                padding: 15px;
+                line-height: 1.7;
+            }
+            #footer {
+                text-align: center;
+                padding: 5px;
+                font-size: 15px;
+                bottom: 0%;
+            }
+        </style>
+        <link rel="icon" type="image/x-icon" href="image/favicon.ico">
     </head>
     <body>
-        <div style="
-            background-color: rgb(156, 156, 156);
-            text-align: center;
-            padding: 30px;
-        ">
-            <img src="logo/avatar.ico" alt="avatar" width="80" height="100">
+        <div id="header-main">
+            <img src="image/avatar.ico" alt="avatar" width="80" height="100">
         </div>
-        <div style="
-            max-width: 700px;
-            margin: 30px auto;
-            padding: 15px;
-            line-height: 1.7;
-        ">
-            <h1>Head one</h1>
+        <div id="content">
+            <h1 id="">Head one</h1>
         </div>
-        <div style="
-            background-color: grey;
-            text-align: center;
-            padding: 30px;
-            font-size: 20px;
-        ">
+        <div id="footer">
             <p>My website</p>
+            <p>Copyright © 2022 xsmd. All rights reserved.</p>
             <a href="https://yuindex-xsmd.vercel.app/#/">Start website</a>
         </div>
     </body>
