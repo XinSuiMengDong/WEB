@@ -1,3 +1,3 @@
-# jiaoben-demo
-This is my first try on javascript.
+# web
+This is my first try on web.
 Wish me gook luck!
