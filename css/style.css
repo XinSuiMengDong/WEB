@@ -17,12 +17,13 @@ a:hover {
 }
 
 a:visited {
-    color: blueviolet;
+    color: yellow;
 }
 
 img {
     opacity: 0.95;
-    shape-margin: round;
+    border: 2px solid #cccccc;
+    border-radius: 50%;
 }
 
 .header-main {
@@ -46,12 +47,30 @@ img {
     text-align: center;
 }
 
-.up {
+.corner-botton {
+    width: 30px;
+    height: 30px;
     position: fixed;
+    background-color: #FFF;
     right: 10px;
     bottom: 10px;
-    border: 2px solid #FFF;
-    border-radius: 3px;
+    text-align: center;
+}
+
+.corner-botton button {
+    height: 30px;
+    border: 0;
+    padding: 0;
+}
+
+.corner-botton button :hover {
+    background-color: aqua;
+}
+
+.corner-botton button img {
+    width: 30px;
+    height: 30px;
+    border: 0;
 }
 
 .footer {
@@ -59,5 +78,8 @@ img {
     margin: 100px auto;
     padding: 10px;
     font-size: 15px;
-    backdrop-filter: blur(4px);
+}
+
+.footer p {
+    color: aliceblue;
 }
