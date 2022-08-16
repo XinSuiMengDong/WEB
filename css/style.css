@@ -24,9 +24,20 @@ img {
     border-radius: 50%;
 }
 
-.header-main {
-    text-align: center;
-    padding: 20px;
+.header {
+    padding: 5px;
+    background-color: #fcfcfc;
+}
+
+#open-btn {
+    display: inline;
+    font-size: 18px;
+}
+
+#leftsb {
+    width: 0px;
+    height: 1080px;
+    background-color: #fff;
 }
 
 .content {
