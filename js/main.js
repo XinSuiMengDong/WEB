@@ -5,5 +5,5 @@ function uptotop() {
 }
 
 function openleftsb() {
-    document.getElementById("leftsb").style.width = "100px";
+    document.getElementById("leftsb").style.width = "200px";
 }
