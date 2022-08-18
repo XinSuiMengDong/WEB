@@ -13,14 +13,35 @@
 
 <body>
     <div class="header">
-        <div id="open-btn" onclick="openleftsb()"><img src="/images/menu-burger.png" alt="menu-burger"></div>
-        <div class="header-content">Homepage</div>
-        <div id="avatar"><img src="images/avatar.ico" alt="avatar" width="30px" height="30px"></div>
+        <div id="open-btn" onclick="openleftsb()"><img src="images/menu-burger.png" alt="menu-burger"></div>
+        <div class="header-left">
+            <a class="logo" href="#" title="Avatar">
+                <img src="images/avatar.ico">
+            </a>
+            <h1 class="title">XSMD's Blog</h1>
+        </div>
+        <div class="header-center">
+            <nav class="links">
+                <a href="#" title="1">首页</a>
+                <a href="#" title="2">文章</a>
+                <a href="#" title="3">关于</a>
+                <a href="#" title="4">联系</a>
+            </nav>
+        </div>
+        <div class="header-right">
+            <nav class="btn">
+                <a href="#search" title="1">Search</a>
+                <a href="#login" title="2">Login</a>
+                <a href="#reg" title="3">Sign up</a>
+            </nav>
+        </div>
     </div>
     <div id="leftsb"></div>
-    <div class="content">
-        <h1 id="">Introduction</h1>
-        <p id="">Hi, I' m XSMD.<br>This is a self-introduction page.<br>中文测试</p>
+    <div class="container">
+        <div class="description">
+            <h1>Introduction</h1>
+            <p>Hello, this is a self-introduction page<br><br><br><br>...</p>
+        </div>
     </div>
     <div class="corner-botton">
         <button onclick="uptotop()">
@@ -28,11 +49,10 @@
         </button>
     </div>
     <div class="temp" style="height: 400px;"></div>
-    <div class="footer">
+    <<div class="footer">
         <p>My website</p>
         <p>Copyright © 2022 xsmd. All rights reserved.</p>
-        <a href="https://yuindex-xsmd.vercel.app/#/" target="_blank">Start website</a>
-    </div>
+        </div>
 </body>
 
 </html>
